@@ -11,7 +11,7 @@ public class CalculadoraDeDesconto {
 				new DescontoValorMaiorQuinhentos(
 						new SemDesconto()));
 
-		return desconto.calcular(orcamento);
+		return desconto.efetuarCalcular(orcamento);
 	}
 	
 }

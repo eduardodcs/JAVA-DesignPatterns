@@ -10,7 +10,12 @@ import br.com.eduardo.loja.orcamento.Orcamento;
 			super(null);
 		}
 
-		public BigDecimal calcular(Orcamento orcamento) {
+		public BigDecimal efetuarCalcular(Orcamento orcamento) {
 			return BigDecimal.ZERO;
+		}
+
+		@Override
+		public boolean deveAplicar(Orcamento orcamento) {
+			return true;
 		}
 }
